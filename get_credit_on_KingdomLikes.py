@@ -13,10 +13,10 @@ class KingdomLikes:
         sleep(5)
 
         uid = self.browser.find_element(By.NAME, 'email')
-        uid.send_keys(YOUR KINGDOMLIKES EMAIL ADDRESS)
+        uid.send_keys("emalekarolin@gmail.com")
         sleep(2)
         pwd = self.browser.find_element(By.NAME, 'password')
-        pwd.send_keys(YOUR KINGDOMLIKES PASSWORD)
+        pwd.send_keys("FQ-eyKVA@2yi2hp")
         sleep(2)
         btn = self.browser.find_element(By.ID, 'buttonmobile')
         btn.click()
